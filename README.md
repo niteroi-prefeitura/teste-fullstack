@@ -17,7 +17,7 @@
       <li>Passo a passo para rodar a aplicação</li>
     </ul>
   </li>
-  <li><strong>Data de entrega:</strong> até <strong>03/12/2025 (quarta-feira) às 23h59</strong>.</li>
+  <li><strong>Data de entrega:</strong> até <strong>02/12/2025 (terça-feira) às 23h59</strong>.</li>
   <li>Envie todos os links (repositório e/ou deploy) para o e-mail: <strong>selecao@sigeo.niteroi.rj.gov.br</strong>.</li>
 </ol>
 
