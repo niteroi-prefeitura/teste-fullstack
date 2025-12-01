@@ -24,7 +24,7 @@
 <h2>🧪 Teste</h2>
 <ol>
   <li>Escolha um conjunto de dados disponível nos <strong>Dados Abertos do SIGeo</strong>: 
-    https://www.sigeo.niteroi.rj.gov.br/pages/dados-abertoshttps://www.sigeo.niteroi.rj.gov.br/pages/dados-abertos</a>
+    https://www.sigeo.niteroi.rj.gov.br/pages/dados-abertos</a>
   </li>
   <li>Consulte os dados através da <strong>API do ArcGIS Online</strong>: 
     https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer/
