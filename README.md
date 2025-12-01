@@ -1,5 +1,4 @@
 
-
 <a name="readme-top">Pt-br</a>
 
 <br />
@@ -14,22 +13,31 @@
     <ul>
       <li>Objetivo do projeto</li>
       <li>Tecnologias utilizadas</li>
-      <li>Passo a passo para rodar a aplicação</li>
     </ul>
   </li>
-  <li><strong>Data de entrega:</strong> até <strong>02/12/2025 (terça-feira) às 23h59</strong>.</li>
+  <li><strong>Data de entrega:</strong> até <strong>02/12/2025 (quarta-feira) às 23h59</strong>.</li>
   <li>Envie todos os links (repositório e/ou deploy) para o e-mail: <strong>selecao@sigeo.niteroi.rj.gov.br</strong>.</li>
 </ol>
 
 <h2>🧪 Teste</h2>
 <ol>
-  <li>Escolha um conjunto de dados disponível nos <strong>Dados Abertos do SIGeo</strong>: 
-    https://www.sigeo.niteroi.rj.gov.br/pages/dados-abertos</a>
+  <li>Acesse a listagem completa dos dados abertos do SIGeo: 
+    https://www.sigeo.niteroi.rj.gov.br/search</a>
   </li>
-  <li>Consulte os dados através da <strong>API do ArcGIS Online</strong>: 
-    https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer/
+  <li>Escolha um conjunto de dados e clique em <strong>Visualizar detalhes completos</strong>. A URL final ficará no formato:
+    <br />
+    <code>https://www.sigeo.niteroi.rj.gov.br/datasets/geoniteroi::nome-do-dataset/about</code>
+    <br />
+    Exemplo:
+    <br />
+    https://www.sigeo.niteroi.rj.gov.br/datasets/geoniteroi::praças-públicas/about</a>
   </li>
-  <li>Armazene os dados em um <strong>banco de dados</strong> e desenvolva uma <strong>API REST</strong> para disponibilizá-los.</li>
+  <li>Dentro da página do conjunto de dados, clique em <strong>Visualizar detalhes da API</strong>. Isso abrirá o <strong>API Explorer</strong> específico para aquele dado, onde você poderá consultar os endpoints e parâmetros disponíveis.</li>
+  <li>Utilize a <strong>API do ArcGIS Online</strong> para realizar consultas:
+    <br />
+    <a href="https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer/" targets.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer/</a>
+  </li>
+  <li>Armazene os dados consultados em um <strong>banco de dados</strong> e desenvolva uma <strong>API REST</strong> para disponibilizá-los.</li>
   <li>Crie uma <strong>interface web</strong> que consuma sua API e apresente um <strong>resumo dos dados</strong> de forma clara e organizada.</li>
 </ol>
 
@@ -48,27 +56,8 @@
   <li><strong>Banco de dados:</strong> PostgreSQL, MySQL ou MongoDB</li>
 </ul>
 
-<h2>🚀 Como rodar o projeto</h2>
-<ol>
-  <li>Clone o repositório:
-    <pre><code>git clone &lt;seu-repositorio&gt;</code></pre>
-  </li>
-  <li>Instale as dependências do frontend e backend:
-    <pre><code>
-cd frontend && npm install
-cd backend && npm install
-    </code></pre>
-  </li>
-  <li>Configure as variáveis de ambiente (ex.: conexão com banco de dados).</li>
-  <li>Inicie o backend:
-    <pre><code>npm run start</code></pre>
-  </li>
-  <li>Inicie o frontend:
-    <pre><code>npm run dev</code></pre>
-  </li>
-</ol>
-
 <h2>📄 Entrega</h2>
 <ul>
-  <li>Link do repositório (GitHub, GitLab, etc.) ou Link do deploy</li>
+  <li>Link do repositório (GitHub, GitLab, etc.)</li>
+  <li>Link do deploy (opcional, mas recomendado)</li>
 </ul>
